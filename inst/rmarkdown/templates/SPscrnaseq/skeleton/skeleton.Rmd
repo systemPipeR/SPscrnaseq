@@ -1,12 +1,12 @@
 ---
-title: "SPRthis" 
-author: "Author: Daniela Cassol (danicassol@gmail.com)"
+title: "SPscrnaseq" 
+author: "Author: Daniela Cassol (danielac@ucr.edu) and Thomas Girke (thomas.girke@ucr.edu)"
 date: "Last update: `r format(Sys.time(), '%d %B, %Y')`" 
 output:
   BiocStyle::html_document:
     toc_float: true
     code_folding: show
-package: SPRthis
+package: systemPipeR
 vignette: |
   %\VignetteEncoding{UTF-8}
   %\VignetteIndexEntry{WF: Workflow Template}
@@ -26,7 +26,7 @@ word-wrap: initial !important;
 
 <!--
 - Compile from command-line
-Rscript -e "rmarkdown::render('SPRthis.Rmd', c('BiocStyle::html_document'), clean=F); knitr::knit('SPRthis.Rmd', tangle=TRUE)"; Rscript -e "rmarkdown::render('SPRthis.Rmd', c('BiocStyle::pdf_document'))"
+Rscript -e "rmarkdown::render('SPscrnaseq.Rmd', c('BiocStyle::html_document'), clean=TRUE)"
 -->
 
 ```{r style, echo = FALSE, results = 'asis'}
@@ -40,9 +40,13 @@ knitr::opts_chunk$set(
 
 ```{r setup, echo=FALSE, message=FALSE, wwarning=FALSE, eval=FALSE}
 suppressPackageStartupMessages({
-
+  library(systemPipeR)
 })
 ```
+
+# Under Development
+
+This workflow is under development!
 
 # Version Information
 

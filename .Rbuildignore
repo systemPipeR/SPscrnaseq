@@ -1,2 +1,6 @@
-^systemPipescRNA\.Rproj$
+^SPscrnaseq\.Rproj$
 ^\.Rproj\.user$
+inst/rmarkdown/templates/SPscrnaseq/skeleton/.batchtools.conf.R
+^\.github
+docs
+
