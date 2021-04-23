@@ -16,7 +16,7 @@ To install the package, please use the _`BiocManager::install`_ command:
 ```
 if (!requireNamespace("BiocManager", quietly=TRUE))
     install.packages("BiocManager")
-BiocManager::install("systemPipeR/SPmetatrans", build_vignettes=TRUE, dependencies=TRUE)
+BiocManager::install("systemPipeR/SPscrnaseq", build_vignettes=TRUE, dependencies=TRUE)
 ```
 To obtain the *systemPipeR* and *systemPipeRdata*, please run as follow:
 ```
