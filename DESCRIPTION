@@ -8,12 +8,12 @@ Authors@R: c(
 Description: This package provides a pre-configured workflow and reporting template for scRNA-Seq.
 License: Artistic-2.0
 URL: https://github.com/systemPipeR/SPscrnaseq
-Imports: 
-    systemPipeR, testthat
 Suggests: 
     BiocStyle,
     knitr,
-    rmarkdown
+    rmarkdown, 
+    systemPipeR, 
+    testthat
 VignetteBuilder: 
     knitr
 biocViews: Infrastructure, RNASeq, SingleCell, Workflow
