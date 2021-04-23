@@ -8,13 +8,22 @@
 
 ### :construction: Under Development!
 
-This workflow is under development!
+> This pipeline is currently under development and does not have a stable release yet.
 
 ### Installation
-```r
-if (!requireNamespace("BiocManager", quietly = TRUE)) {
-  install.packages("BiocManager") }
-BiocManager::install('systemPipeR/SPscrnaseq')
+
+To install the package, please use the _`BiocManager::install`_ command:
+```
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("systemPipeR/SPmetatrans", build_vignettes=TRUE, dependencies=TRUE)
+```
+To obtain the *systemPipeR* and *systemPipeRdata*, please run as follow:
+```
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("systemPipeR")
+BiocManager::install("systemPipeRdata")
 ```
 
 ### Usage
