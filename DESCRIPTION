@@ -9,7 +9,7 @@ Description: This package provides a pre-configured workflow and reporting templ
 License: Artistic-2.0
 URL: https://github.com/systemPipeR/SPscrnaseq
 Imports: 
-    systemPipeR
+    systemPipeR, testthat
 Suggests: 
     BiocStyle,
     knitr,
