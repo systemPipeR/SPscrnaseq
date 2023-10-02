@@ -4,7 +4,7 @@ Version: 1.0.0
 Date: 2023-09-29
 Authors@R: c(
     person(given = "Le", family = "Zhang", role = c("aut")), 
-    person(given = "Thomas", family = "Girke", c("aut", "cre"), email="thomas.girke@ucr.edu"))
+    person(given = "Thomas", family = "Girke", role = c("aut", "cre"), email="thomas.girke@ucr.edu"))
 Description: This package provides a pre-configured workflow and reporting template for scRNA-Seq.
 License: Artistic-2.0
 URL: https://github.com/systemPipeR/SPscrnaseq
